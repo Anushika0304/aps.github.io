@@ -34,3 +34,18 @@ With billions of active users globally, Instagram is a key player in the social 
 * **Collaborations and Partnerships** - Brands collaborate with other businesses, influencers, or organizations on Instagram to reach new audiences and enhance brand credibility. This involves identifying suitable partners, negotiating terms, and tracking the success of collaborations.
 
 These use cases involve various types of data, including user demographics, engagement metrics, sales data, content performance analytics, and social media trends. Instagram caters to a wide customer segment, including consumers, businesses of all sizes, influencers, marketers, and e-commerce retailers, providing opportunities for targeted marketing, customer engagement, and brand building.
+
+**Design Challenges**<br>
+*Content Recommendation*<br>
+Content recommendation presents a formidable design challenge for Instagram due to its vast and dynamic content pool, diverse user base, and the need to balance personalization with diversity while ensuring fairness, engagement, and user trust. The platform must develop algorithms that adapt to evolving user preferences, promote serendipitous discovery, mitigate bias, and prioritize user privacy, all while delivering a seamless and engaging experience tailored to each individual user.<br>
+**To-Do**<br>
+Dynamic programming can be applied in the content-based filtering aspect of content recommendation.
+
+In content-based filtering, the system recommends content to users based on the attributes and features of the items they have interacted with or shown interest in. Dynamic programming algorithms, such as Longest Common Subsequence (LCS), can be used to compare the features of different posts, such as image content, captions, hashtags, and engagement metrics.
+
+For example, LCS can be applied to compare the textual content of captions or descriptions of posts to identify similarities between them. This similarity measure can then be used to recommend posts with similar content themes or features to users who have shown interest in related content. Dynamic programming helps efficiently compute these similarities, enabling more accurate and personalized content recommendations.<br>
+* Code for sample implementation of [Longest Common Subsequence]()
+
+
+
+
