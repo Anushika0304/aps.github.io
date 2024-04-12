@@ -44,7 +44,7 @@ Dynamic programming can be applied in the content-based filtering aspect of cont
 In content-based filtering, the system recommends content to users based on the attributes and features of the items they have interacted with or shown interest in. Dynamic programming algorithms, such as Longest Common Subsequence (LCS), can be used to compare the features of different posts, such as image content, captions, hashtags, and engagement metrics.
 
 For example, LCS can be applied to compare the textual content of captions or descriptions of posts to identify similarities between them. This similarity measure can then be used to recommend posts with similar content themes or features to users who have shown interest in related content. Dynamic programming helps efficiently compute these similarities, enabling more accurate and personalized content recommendations.<br>
-* Code for sample implementation of [Longest Common Subsequence]()
+* Code for sample implementation of [Longest Common Subsequence](all_codes/Longest-Common-Subsequence.cpp)
 
 
 
