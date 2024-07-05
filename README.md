@@ -1,6 +1,7 @@
-# Instagram-Portfolio.github.io
+## 📸 Instagram Portfolio
 
-## 📚 Algorithmic Problem Solving
+### Course Name
+**Arithmetic Program Solving**
 
 ### Course Code
 **23ECSE309**
