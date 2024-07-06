@@ -216,6 +216,26 @@ Genetic algorithms can face challenges in scalability due to their reliance on p
 
 *Code for sample implementation of [Genetic Algorithm](all_codes/genetic.cpp)*
 
+---
+
+### 9. Trend Detection on Instagram
+
+**Challenges and Market Benefits:**
+Detecting trends on Instagram involves processing vast amounts of data in real-time, identifying meaningful patterns amidst noise, and adapting quickly to changing user behaviors and preferences. This capability enhances user engagement, attracts advertisers, and keeps the platform relevant amid dynamic content trends.
+
+![Trend Detection](trend.avif)
+
+**Design Technique:**
+Utilizing algorithms like the Louvain method or Girvan-Newman algorithm helps in identifying communities or clusters of users based on shared interactions and interests. This approach uncovers emerging trends by analyzing how content spreads through these communities, providing actionable insights for content creators and marketers.
+
+**Complexity:**
+These algorithms typically have a time complexity of O(E^2V) for Girvan-Newman and O(V log V) for Louvain method, where E represents edges and V represents vertices in the network. Space complexity varies based on implementation but generally scales with the size of the network.
+
+**Shortcomings and Scalability:**
+While effective for moderate-sized networks, these algorithms may struggle with scalability to handle Instagram's massive user base and real-time data streams. Implementations often require optimization for distributed environments and may overlook nuances in regional or niche trends due to global focus.
+
+*Code for sample implementation of [Girvan Newman Algorithm](https://github.com/danieljsharpe/girvan-newman/blob/master/girvan-newman.cpp)*
+
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
 - [Dynamic Programming Techniques](https://en.wikipedia.org/wiki/Dynamic_programming)
