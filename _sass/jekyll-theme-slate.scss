@@ -310,7 +310,7 @@ Full-Width Styles
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(33, 33, 33, 0.8); /* Adjust opacity here */
+  background: rgba(33, 33, 33, 0.8); /* Increased opacity */
   z-index: 1;
 }
 
@@ -319,25 +319,25 @@ Full-Width Styles
   padding: 50px 10px 30px 10px;
   z-index: 2; /* Ensure content is above the pseudo-element */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end; /* Align items at the bottom */
   text-align: center;
   height: 100%;
-  color: #fff;
+  color: #fff; /* This is the default color for all text in the inner container */
 }
 
 .header-content {
   position: relative;
   z-index: 2; /* Ensure content is above the pseudo-element */
-  
+  padding-bottom: 20px; /* Add some padding to the bottom if necessary */
 }
 
 .header-text {
-  font-family: 'Brush Script MT', cursive;
   margin: 10px 0;
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow: #111 0px 0px 10px;
-  color:#a18167;
+  color: #FFD700; /* Change this to your desired color */
+  font-family: 'Brush Script MT', cursive; /* Example of a stylish font */
 }
 
 #project_title {
