@@ -1,5 +1,7 @@
 ### Name 
 **Anushika Kothari** 🧑‍🎓
+### USN
+**01FE21BCS062**🏫
 
 ### Course Name
 **Arithmetic Program Solving** 📊
@@ -13,14 +15,16 @@
 ### University
 **KLE Technological University, Hubballi-31** 🏛️
 
+### Portfolio Domain
+**Instagram** 📸
 ---
 
-## 🌟 Introduction
-Welcome to my portfolio, where I explore arithmetic problem-solving within Instagram. As one of the largest social media platforms globally, Instagram offers a rich landscape for tackling complex challenges using dynamic programming. Its diverse user interactions, content generation, and algorithmic recommendations provide ample opportunities for innovative problem-solving.
+🌟 **Introduction**
+Welcome to my portfolio, where I delve into the realm of arithmetic problem-solving within Instagram. As one of the world's largest social media platforms, Instagram provides a dynamic environment 🌍 ripe for tackling complex challenges using innovative programming techniques. Its vast user engagement, diverse content generation 📸, and sophisticated algorithms offer a fertile ground for exploring new solutions.
 
-I'm drawn to Instagram's dynamic environment, which constantly evolves and presents new algorithmic optimization opportunities. Leveraging existing literature, I aim to contribute novel solutions tailored to Instagram's specific challenges. Standard reports consistently highlight Instagram's significance, given its immense user base and influence across various domains.
+I'm captivated by Instagram's ever-evolving landscape, which continually presents fresh opportunities for algorithmic optimization. Drawing from established methodologies, my goal is to pioneer novel approaches tailored to Instagram's unique challenges. With its global reach and profound impact across various domains 🌐, Instagram stands as a cornerstone of modern social media.
 
-With billions of active users globally, Instagram is a key player in the social media ecosystem. Major market players, including Meta Platforms and influencers, offer diverse services from content sharing to data analytics. In this portfolio, I aim to optimize user experiences by leveraging arithmetic problem-solving methodologies within Instagram's complex ecosystem.
+In this portfolio, I explore how arithmetic problem-solving can enhance user experiences within Instagram's intricate ecosystem. 🧠💡
 
 ![Instagram Image](https://via.placeholder.com/800x400.png?text=Instagram)
 
