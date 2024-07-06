@@ -196,6 +196,24 @@ While Dijkstra's and A* are efficient for finding shortest paths, they may strug
 
 *Code for sample implementation of [A* Algorithm](https://github.com/daancode/a-star)*
 
+---
+
+### 8. Scheduling posts at right time for maximum reach
+
+**Challenges and Market Benefits**:
+Scheduling posts at optimal times on Instagram involves navigating dynamic user behavior and algorithmic complexities to maximize reach and engagement. Benefits include improved conversion rates, enhanced efficiency through automation, and strategic timing for higher visibility and user interaction.
+
+**Design Technique**:
+Genetic algorithm mimics the process of natural selection to optimize solutions. In the context of scheduling posts, GA can evolve schedules over time by generating a population of potential schedules (chromosomes), evaluating their fitness (reach and engagement metrics), and applying genetic operators like crossover and mutation to produce new generations of schedules. This iterative process continues until an optimal or near-optimal schedule is found.
+
+**Complexity**:
+The time complexity for each generation in a genetic algorithm is O(k x n x m), where **k** is the population size, **n** is the number of chromosomes (or solutions) in the population, and **m** is the complexity of the fitness function evaluation. The space complexity mainly depends on the size of the population and the representation of each chromosome, typically O(k x n).
+
+**Shortcomings & Scalability**:
+Genetic algorithms can face challenges in scalability due to their reliance on population sizes and fitness evaluations, which can become computationally intensive for large datasets or complex problems. They may also struggle with premature convergence to suboptimal solutions and require careful parameter tuning to balance exploration and exploitation effectively. Maintaining diversity in the population and managing computational resources are critical for overcoming these limitations in practical applications.
+
+*Code for sample implementation of [Genetic Algorithm]()*
+
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
 - [Dynamic Programming Techniques](https://en.wikipedia.org/wiki/Dynamic_programming)
