@@ -177,7 +177,7 @@ Space Complexity : The space complexity of skip lists is O(n).
 *Code for sample implementation of [Skip List](all_codes/skip.cpp)*
 
 ---
-###7. Content Delivery with Shortest Path Algorithms 🌐
+### 7. Content Delivery with Shortest Path Algorithms 🌐
 **Challenges and Market Benefits**:
 Optimizing content delivery routes in Instagram with algorithms like Dijkstra's or A* involves efficiently managing and updating paths across a large network. This ensures minimal latency, faster content delivery, and enhances user experience with quicker load times, crucial for maintaining user engagement and satisfaction.
 
