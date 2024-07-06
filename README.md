@@ -55,12 +55,9 @@ In this portfolio, I explore how arithmetic problem-solving can enhance user exp
 **Challenges and Market Benefits**:
 Categorizing posts based on hashtags on platforms like Instagram enhances content discoverability and improves user engagement. However, the challenges include handling vast amounts of user-generated content, ensuring accurate categorization to provide relevant recommendations, and adapting to the dynamic nature of trending hashtags. 📈💬
 
-**Design Technique 1: Longest Common Subsequence (LCS)**
+![Post Categorization](Hashtags.png)
 
-**Why it Works:**
-The LCS algorithm can be adapted for categorizing posts by comparing sequences of hashtags. By identifying the longest common subsequences among hashtags used in different posts, similarities in content themes or topics can be recognized. This approach aids in grouping posts into categories and assigning appropriate tags for effective content organization. 📊🔍
-
-**Shortcomings and Scalability Issues:**
+**Shortcomings and Scalability Issues with LCS:**
 
 * **Time Complexity:** O(m * n), where m and n are the lengths of the hashtag sequences. While suitable for moderate datasets, the quadratic time complexity can become impractical for large-scale applications without optimization. ⏳
 * **Semantic Understanding:** LCS may not capture the full semantic meaning or context of hashtags, limiting its ability to categorize based on nuanced topics or trends effectively. 🤔
@@ -68,12 +65,8 @@ The LCS algorithm can be adapted for categorizing posts by comparing sequences o
 
 *Code for sample implementation of [Longest Common Subsequence](all_codes/Longest-Common-Subsequence.cpp)*
 
-**Design Technique 2: Radix Tree**
 
-**Why it Works:**
-Implementing a Radix Tree for hashtag categorization involves structuring a space-efficient data structure that manages and queries a vast number of hashtags efficiently. Each node in the Radix Tree represents a common prefix of multiple hashtags, collapsing paths with single children to conserve memory. This allows rapid traversal and querying of hashtags based on common prefixes, facilitating quick categorization and tag assignment. 🌳🔖
-
-**Shortcomings and Scalability Issues:**
+**Shortcomings and Scalability Issues with Radix Tree:**
 
 * **Time Complexity:** Insertion, deletion, and search operations are O(l), where l is the length of the tag. This efficiency is suitable for handling real-time hashtag updates and dynamic content categorization. ⚡
 * **Space Complexity:** O(n * l), where n is the number of hashtags and l is the average length of hashtags. While generally efficient, the space overhead may become significant with a massive number of distinct hashtags. 🧠
