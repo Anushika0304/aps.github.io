@@ -155,17 +155,19 @@ Using the Rod Cutting Problem for ad optimization on Instagram faces challenges 
 *Code for sample implementation of [Rod Cutting Problem](all_codes/rod.cpp)*
 
 ---
-### 6. Efficient managing and retrieving of user timelines
+### 6. Efficient managing and retrieving of user timelines🕒
+
 **Challenges & Market Benefits**:
-Implementing skip lists in Instagram for managing user timelines or feeds presents challenges in terms of space complexity, implementation intricacies, and performance optimization. However, skip lists offer significant benefits such as efficient access with logarithmic time complexity for operations, scalability to handle large-scale data dynamically, and improved user experience through faster content delivery and enhanced engagement on the platform. Achieving these benefits requires careful design and maintenance to balance performance requirements with storage costs and operational complexities.
+Implementing skip lists in Instagram for managing user timelines or feeds presents challenges in terms of space complexity, implementation intricacies, and performance optimization. However, skip lists offer significant benefits such as efficient access with logarithmic time complexity for operations, scalability to handle large-scale data dynamically, and improved user experience through faster content delivery and enhanced engagement on the platform.📊🚀 
 
 ![User Timeline](timeline.avif)
 
 **Design Technique:**
-Implementing skip lists involves maintaining multiple layers of linked lists with probabilistic skipping, which speeds up search operations. Each level acts as an express lane, reducing the average time complexity for search operations.
+Implementing skip lists involves maintaining multiple layers of linked lists with probabilistic skipping, which speeds up search operations. Each level acts as an express lane, reducing the average time complexity for search operations.🛤️
 
 **Complexity:** 
-Time Complexity : Skip lists offer efficient average-case time complexities for search, insertion, and deletion operations, all being O(log n), where n is the number of elements in the list.
+
+Time Complexity : Skip lists offer efficient average-case time complexities for search, insertion, and deletion operations, all being O(log n), where **n** is the number of elements in the list.
 
 Space Complexity : The space complexity of skip lists is O(n).
 
