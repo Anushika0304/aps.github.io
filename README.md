@@ -153,6 +153,26 @@ Space Complexity: O(n), where n is the number of different ad placement lengths.
 Using the Rod Cutting Problem for ad optimization on Instagram faces challenges in accurately matching ad placements with dynamic user behaviors and context. It aims to maximize revenue by finding the best ad durations but may miss subtle contextual cues crucial for user engagement. Scalability issues arise from managing large datasets and ensuring algorithms can adapt quickly, requiring robust infrastructure and adaptive learning. Overcoming these challenges involves refining algorithms and leveraging real-time data insights to improve ad effectiveness and user satisfaction on the platform.🚀
 
 *Code for sample implementation of [Rod Cutting Problem](all_codes/rod.cpp)*
+
+---
+### 6. Efficient managing and retrieving of user timelines
+**Challenges & Market Benefits**:
+Implementing skip lists in Instagram for managing user timelines or feeds presents challenges in terms of space complexity, implementation intricacies, and performance optimization. However, skip lists offer significant benefits such as efficient access with logarithmic time complexity for operations, scalability to handle large-scale data dynamically, and improved user experience through faster content delivery and enhanced engagement on the platform. Achieving these benefits requires careful design and maintenance to balance performance requirements with storage costs and operational complexities.
+
+![Ads Placement](ads.avif)
+
+**Design Technique:**
+Implementing skip lists involves maintaining multiple layers of linked lists with probabilistic skipping, which speeds up search operations. Each level acts as an express lane, reducing the average time complexity for search operations.
+
+**Complexity:** 
+Time Complexity : Skip lists offer efficient average-case time complexities for search, insertion, and deletion operations, all being O(log n), where n is the number of elements in the list.
+
+Space Complexity : The space complexity of skip lists is O(n).
+
+**Shortcomings and Scalability:** Skip lists require more memory compared to basic data structures due to their additional layers, which can limit their efficiency in memory-constrained environments. While they dynamically adjust to changes in data size and access patterns, their implementation complexity can pose challenges in distributed systems, requiring careful synchronization to maintain consistency and scalability. Despite their efficiency in average cases, skip lists may not be optimal for applications demanding strictly minimized memory usage or ultra-fast operations beyond logarithmic time complexity.
+
+*Code for sample implementation of [Skip List](all_codes/skip.cpp)*
+
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
 - [Dynamic Programming Techniques](https://en.wikipedia.org/wiki/Dynamic_programming)
