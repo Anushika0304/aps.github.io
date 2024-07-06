@@ -17,16 +17,17 @@
 
 ### Portfolio Domain
 **Instagram** 📸
----
+----
 
 ### 🌟 **Introduction**
+![Instagram Image](https://img.freepik.com/free-photo/pile-3d-instagram-logos_1379-876.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716508800&semt=sph)
 Welcome to my portfolio, where I delve into the realm of arithmetic problem-solving within Instagram. As one of the world's largest social media platforms, Instagram provides a dynamic environment 🌍 ripe for tackling complex challenges using innovative programming techniques. Its vast user engagement, diverse content generation 📸, and sophisticated algorithms offer a fertile ground for exploring new solutions.
 
 I'm captivated by Instagram's ever-evolving landscape, which continually presents fresh opportunities for algorithmic optimization. Drawing from established methodologies, my goal is to pioneer novel approaches tailored to Instagram's unique challenges. With its global reach and profound impact across various domains 🌐, Instagram stands as a cornerstone of modern social media.
 
 In this portfolio, I explore how arithmetic problem-solving can enhance user experiences within Instagram's intricate ecosystem. 🧠💡
 
-![Instagram Image](https://via.placeholder.com/800x400.png?text=Instagram)
+
 
 ## 📊 Business Cases in Instagram
 ### Influencer Marketing
