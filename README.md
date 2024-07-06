@@ -30,6 +30,10 @@ In this portfolio, I explore how arithmetic problem-solving can enhance user exp
 
 
 ## 📊 Business Cases in Instagram
+![Use Case 1](use-case1.png)
+
+
+
 ### Influencer Marketing
 ![Influencer Marketing](https://via.placeholder.com/800x400.png?text=Influencer+Marketing)
 Many businesses collaborate with influencers on Instagram to promote their products or services. This involves analyzing influencer engagement rates, audience demographics, and campaign performance metrics.
