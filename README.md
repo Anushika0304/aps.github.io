@@ -36,9 +36,9 @@ In this portfolio, I explore how arithmetic problem-solving can enhance user exp
 
 ![Use Case 3](usecase3.png)
 
-![Use Case 4](usecase4.png)
+![Use Case 4](usecase5.png)
 
-![Use Case 5](usecase5.png)
+![Use Case 5](usecase4.png)
 
 ![Use Case 6](usecase6.png)
 
