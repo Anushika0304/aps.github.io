@@ -135,6 +135,7 @@ Space Complexity: O(b^d) 📊
 
 **Shortcomings & Scalability:**
 A* relies on the heuristic's accuracy, and designing an effective heuristic can be challenging. Real-time computation may be resource-intensive, especially with a large and complex user-content graph. However, parallel processing and distributed computing can scale A* search for a large user base. Partitioning the graph and distributing the search process ensures efficiency, while caching and pre-computing paths reduce computational load, maintaining responsiveness and effectiveness 🚀.
+*Code for sample implementation of [A* algorithm](https://github.com/daancode/a-star)*
 
 ### 5. Ad Placement Optimization on Instagram 📏
 **Challenges and Market Benefits:**
@@ -174,6 +175,26 @@ Space Complexity : The space complexity of skip lists is O(n).
 **Shortcomings and Scalability:** Skip lists require more memory compared to basic data structures due to their additional layers, which can limit their efficiency in memory-constrained environments. While they dynamically adjust to changes in data size and access patterns, their implementation complexity can pose challenges in distributed systems, requiring careful synchronization to maintain consistency and scalability. Despite their efficiency in average cases, skip lists may not be optimal for applications demanding strictly minimized memory usage or ultra-fast operations beyond logarithmic time complexity.
 
 *Code for sample implementation of [Skip List](all_codes/skip.cpp)*
+
+---
+###7. Content Delivery with Shortest Path Algorithms 🌐
+**Challenges and Market Benefits**:
+Optimizing content delivery routes in Instagram with algorithms like Dijkstra's or A* involves efficiently managing and updating paths across a large network. This ensures minimal latency, faster content delivery, and enhances user experience with quicker load times, crucial for maintaining user engagement and satisfaction.
+
+![Route Optimization](route.webp)
+
+**Design Technique**:
+Implementing Dijkstra's algorithm involves calculating shortest paths from a source node to all other nodes, using priority queues for efficient path exploration. A* algorithm enhances this by incorporating heuristics to guide the search towards the destination more effectively.
+
+**Complexity**:
+Dijkstra's algorithm has a time complexity of O(V^2) using an adjacency matrix or O((E + V) log V) with priority queues, where V is the number of vertices and E is the number of edges. Space complexity is O(V) for storing distances and vertices.
+
+**Shortcomings and Scalability**: 
+While Dijkstra's and A* are efficient for finding shortest paths, they may struggle with scalability in very large networks or dynamic environments due to their reliance on exhaustive path exploration. Handling real-time updates and optimizing for varying network conditions can pose challenges, requiring continuous optimization and possibly more complex algorithms for large-scale applications.
+
+*Code for sample implementation of [Dijkstra's Algorithm](all_codes/dijkstra.cpp)*
+
+*Code for sample implementation of [A* Algorithm](https://github.com/daancode/a-star)*
 
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
