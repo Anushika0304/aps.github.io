@@ -339,14 +339,15 @@ Full-Width Styles
 }
 
 .header-content {
-  position: relative;
+  position: center;
   z-index: 2; /* Ensure content is above the pseudo-element */
 }
 
 .header-text {
   margin: 10px 0;
-  font-size: 1.5em;
+  font-size: 3.5em;
   text-shadow: #111 0px 0px 10px;
+  color:#f5f5dc;
 }
 
 #project_title {
