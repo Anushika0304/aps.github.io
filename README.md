@@ -117,6 +117,22 @@ Space: O(n) for node storage, manageable with proper resource allocation.
 
 *Code for sample implementation of [Segment Tree](all_codes/segment.cpp)*
 
+### 4. Personalized Content Recommendations 🔍✨
+**Challenges and Market Benefits:**
+Personalizing content on Instagram involves navigating a vast network of user interests and interactions. The challenge is to efficiently find relevant content in real-time ⏱️. Effective personalization boosts user engagement and satisfaction 📈.
+
+![Content Recommendation](recommend.jpg)
+
+**Design Technique:**
+A* search can find the shortest path to relevant content. Users and content items are nodes in a graph, with edges representing preferences and interactions. A* uses a heuristic to prioritize paths, efficiently recommending content that matches user interests.
+
+**Time and Space Complexity:**
+
+Time Complexity: O(b^d) 🌐
+Space Complexity: O(b^d) 📊
+, where **b** is branching factor and **d** is depth of the solution 
+**Shortcomings & Scalability:**
+A* relies on the heuristic's accuracy, and designing an effective heuristic can be challenging. Real-time computation may be resource-intensive, especially with a large and complex user-content graph. However, parallel processing and distributed computing can scale A* search for a large user base. Partitioning the graph and distributing the search process ensures efficiency, while caching and pre-computing paths reduce computational load, maintaining responsiveness and effectiveness 🚀.
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
 - [Dynamic Programming Techniques](https://en.wikipedia.org/wiki/Dynamic_programming)
