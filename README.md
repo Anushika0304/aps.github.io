@@ -31,7 +31,7 @@ In this portfolio, I explore how arithmetic problem-solving can enhance user exp
 
 ## 📊 Business Cases in Instagram
 ![Use Case 1](use-case1.png)
-
+![Use Case 1](usecase1.png)
 
 
 ### Influencer Marketing
