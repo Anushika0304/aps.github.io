@@ -28,7 +28,7 @@ In this portfolio, I explore how arithmetic problem-solving can enhance user exp
 
 
 
-## 📊 Business Cases in Instagram
+## 📊 Services Provided by Instagram
 ![Use Case 1](usecase0.png)
 
 ![Use Case 2](usecase2.png)
@@ -49,59 +49,37 @@ In this portfolio, I explore how arithmetic problem-solving can enhance user exp
 
 ![Use Case 10](usecase10.png)
 
-![Use Case 10](brand-loyalty-concept-illustration_114360-12422.avif) ![Use Case 10](brand-loyalty-concept-illustration_114360-12422.avif) ![Use Case 10](brand-loyalty-concept-illustration_114360-12422.avif)
-### Influencer Marketing
-![Influencer Marketing](https://via.placeholder.com/800x400.png?text=Influencer+Marketing)
-Many businesses collaborate with influencers on Instagram to promote their products or services. This involves analyzing influencer engagement rates, audience demographics, and campaign performance metrics.
+## 💡 Design Challenges & Solutions 
+### Posts Categorization Based on Hashtags 🔖
 
-### Content Marketing
-![Content Marketing](https://via.placeholder.com/800x400.png?text=Content+Marketing)
-Businesses use Instagram to share visually appealing content such as images, videos, and stories to engage with their audience. They track metrics like likes, comments, shares, and reach to measure content effectiveness.
+**Challenges and Market Benefits**:
+Categorizing posts based on hashtags on platforms like Instagram enhances content discoverability and improves user engagement. However, the challenges include handling vast amounts of user-generated content, ensuring accurate categorization to provide relevant recommendations, and adapting to the dynamic nature of trending hashtags. 📈💬
 
-### E-Commerce Instagram
-![E-Commerce](https://via.placeholder.com/800x400.png?text=E-Commerce)
-Some businesses sell products directly through Instagram by setting up a shoppable feed or using features like Instagram Shopping. This involves managing product catalogs, inventory, and tracking sales conversions.
+**Design Technique 1: Longest Common Subsequence (LCS)**
 
-### Brand Awareness Campaigns
-![Brand Awareness](https://via.placeholder.com/800x400.png?text=Brand+Awareness)
-Companies run brand awareness campaigns on Instagram to increase visibility and reach new audiences. This involves creating compelling visual content and tracking metrics like impressions, reach, and brand mentions.
+**Why it Works:**
+The LCS algorithm can be adapted for categorizing posts by comparing sequences of hashtags. By identifying the longest common subsequences among hashtags used in different posts, similarities in content themes or topics can be recognized. This approach aids in grouping posts into categories and assigning appropriate tags for effective content organization. 📊🔍
 
-### Customer Engagement and Support
-![Customer Engagement](https://via.placeholder.com/800x400.png?text=Customer+Engagement)
-Businesses use Instagram to interact with customers, answer queries, and provide support. This involves monitoring direct messages, comments, and mentions to ensure timely responses and maintain a positive brand image.
+**Shortcomings and Scalability Issues:**
 
-### User-Generated Content (UGC) Campaigns
-![UGC Campaigns](https://via.placeholder.com/800x400.png?text=UGC+Campaigns)
-Brands encourage users to create and share content related to their products or services. This involves incentivizing user participation, curating UGC, and tracking campaign engagement.
+* **Time Complexity:** O(m * n), where m and n are the lengths of the hashtag sequences. While suitable for moderate datasets, the quadratic time complexity can become impractical for large-scale applications without optimization. ⏳
+* **Semantic Understanding:** LCS may not capture the full semantic meaning or context of hashtags, limiting its ability to categorize based on nuanced topics or trends effectively. 🤔
+* **Scalability:** Optimization or parallelization is necessary to handle the extensive volume of posts and hashtags generated on platforms like Instagram. 📈
 
-### Market Research and Consumer Insights
-![Market Research](https://via.placeholder.com/800x400.png?text=Market+Research)
-Companies analyze data from Instagram to gain insights into consumer preferences, trends, and behavior. This involves monitoring hashtags, trends, and competitor activities to inform strategic decision-making.
+*Code for sample implementation of [Longest Common Subsequence](all_codes/Longest-Common-Subsequence.cpp)*
 
-### Event Promotion
-![Event Promotion](https://via.placeholder.com/800x400.png?text=Event+Promotion)
-Businesses promote events such as product launches, conferences, or store openings on Instagram. This involves creating event-specific content, leveraging Instagram Stories and Live features, and measuring event awareness and attendance.
+**Design Technique 2: Radix Tree**
 
-### Employee Advocacy
-![Employee Advocacy](https://via.placeholder.com/800x400.png?text=Employee+Advocacy)
-Some businesses involve employees in their Instagram marketing efforts by encouraging them to share company-related content. This involves providing guidelines, tracking employee engagement, and measuring the impact on brand visibility.
+**Why it Works:**
+Implementing a Radix Tree for hashtag categorization involves structuring a space-efficient data structure that manages and queries a vast number of hashtags efficiently. Each node in the Radix Tree represents a common prefix of multiple hashtags, collapsing paths with single children to conserve memory. This allows rapid traversal and querying of hashtags based on common prefixes, facilitating quick categorization and tag assignment. 🌳🔖
 
-### Collaborations and Partnerships
-![Collaborations](https://via.placeholder.com/800x400.png?text=Collaborations)
-Brands collaborate with other businesses, influencers, or organizations on Instagram to reach new audiences and enhance brand credibility. This involves identifying suitable partners, negotiating terms, and tracking the success of collaborations.
+**Shortcomings and Scalability Issues:**
 
-## 💡 Design Challenges
-### Content Recommendation
-Content recommendation presents a formidable design challenge for Instagram due to its vast and dynamic content pool, diverse user base, and the need to balance personalization with diversity while ensuring fairness, engagement, and user trust. The platform must develop algorithms that adapt to evolving user preferences, promote serendipitous discovery, mitigate bias, and prioritize user privacy, all while delivering a seamless and engaging experience tailored to each individual user.
+* **Time Complexity:** Insertion, deletion, and search operations are O(l), where l is the length of the tag. This efficiency is suitable for handling real-time hashtag updates and dynamic content categorization. ⚡
+* **Space Complexity:** O(n * l), where n is the number of hashtags and l is the average length of hashtags. While generally efficient, the space overhead may become significant with a massive number of distinct hashtags. 🧠
+* **Maintenance in Distributed Systems:** Synchronization challenges may arise when maintaining Radix Trees across distributed systems, requiring careful management to ensure consistency and efficiency. 🌐
 
-### To-Do
-Dynamic programming can be applied in the content-based filtering aspect of content recommendation.
-
-In content-based filtering, the system recommends content to users based on the attributes and features of the items they have interacted with or shown interest in. Dynamic programming algorithms, such as Longest Common Subsequence (LCS), can be used to compare the features of different posts, such as image content, captions, hashtags, and engagement metrics.
-
-For example, LCS can be applied to compare the textual content of captions or descriptions of posts to identify similarities between them. This similarity measure can then be used to recommend posts with similar content themes or features to users who have shown interest in related content. Dynamic programming helps efficiently compute these similarities, enabling more accurate and personalized content recommendations.
-
-**Code for sample implementation of [Longest Common Subsequence](all_codes/Longest-Common-Subsequence.cpp)**
+By leveraging these design techniques, Instagram can effectively categorize posts based on hashtags, enhancing content discoverability, improving user engagement through personalized recommendations, and maintaining a scalable infrastructure to handle the platform's dynamic nature. Each approach offers unique advantages and challenges, depending on the specific requirements and scale of hashtag analysis on social media platforms.
 
 ---
 
