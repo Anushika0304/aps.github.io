@@ -44,7 +44,7 @@ In this portfolio, I explore how arithmetic problem-solving can enhance user exp
 
 ![Use Case 6](usecase5.png)
 
-![Use Case 6](usecase7.png)
+![Use Case 6](usecase6.png)
 
 ### Influencer Marketing
 ![Influencer Marketing](https://via.placeholder.com/800x400.png?text=Influencer+Marketing)
