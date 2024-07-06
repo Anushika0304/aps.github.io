@@ -83,15 +83,16 @@ By leveraging these design techniques, Instagram can effectively categorize post
 **Challenges and Market Benefits**:
 Ensuring accuracy and relevance in hashtag suggestions is critical. The system must process user input in real-time without noticeable delays 🕒, handle a large and growing database of hashtags efficiently, and support multiple languages and slang 🌐. Additionally, it needs to dynamically update the database with new trends while maintaining performance 📈.
 
-![Hashtag Suggestion](Hashtags.png)
+![Hashtag Suggestion](hashtag_suggestion.png)
 
 **Design Technique**:
 Maintain a database of popular hashtags using a trie 🌳 or BK-tree for efficient management. When a user types a hashtag, calculate the edit distance between the input and stored hashtags to find the closest matches. Suggest hashtags with the smallest edit distances, using approximate string matching 🔍 and parallel processing to optimize performance.
 
 **Shortcomings & Scalability**:
-The edit distance algorithm can be computationally intensive with a time complexity of O(m * n) 🧮, leading to high memory usage. Using tries or BK-trees helps manage large datasets and reduces search time ⏳. Parallel processing and load balancing ensure optimal resource utilization ⚖️. Implementing incremental updates allows the system to handle new and outdated hashtags without requiring a complete rebuild, maintaining responsiveness and efficiency 🚀.
+The edit distance algorithm can be computationally intensive with a time complexity of O(m * n) 🧮, leading to high memory usage. Using tries or BK-trees helps manage large datasets and reduces search time ⏳. The time complexity for operations in a trie is O(l) where l is the length of the hashtag, and the space complexity is O(n * l), where n is the number of hashtags. Parallel processing and load balancing ensure optimal resource utilization ⚖️. Implementing incremental updates allows the system to handle new and outdated hashtags without requiring a complete rebuild, maintaining responsiveness and efficiency 🚀.
 
-*Code for sample implementation of [Radix Tree](https://github.com/Anushika0304/radix-tree/blob/master/radix_tree.cpp)*
+*Code for sample implementation of [Trie](all_codes/edit.cpp)*
+*Code for sample implementation of [Trie](all_codes/trie.cpp)*
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
 - [Dynamic Programming Techniques](https://en.wikipedia.org/wiki/Dynamic_programming)
