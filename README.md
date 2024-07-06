@@ -140,6 +140,8 @@ A* relies on the heuristic's accuracy, and designing an effective heuristic can 
 **Challenges and Market Benefits:**
 Instagram faces challenges in optimizing ad placements, much like the Rod Cutting Problem, by balancing optimal ad durations for user engagement without overwhelming users. This involves analyzing user interaction patterns to adjust ad lengths effectively. Balancing revenue goals with a positive user experience is critical, ensuring ads are relevant and non-intrusive to enhance user satisfaction. By strategically optimizing ad placements, Instagram can maximize revenue and improve user engagement, fostering higher retention rates and loyalty among users.🕒📈
 
+![Ads Placement](ads.avif)
+
 **Design Technique:**
 The Rod Cutting Problem can be analogously applied to optimize ad placements on Instagram. Just as the rod cutting problem seeks to maximize the profit from cutting a rod into pieces of various lengths, Instagram can maximize revenue by determining the best placement and duration for ads based on user behavior and engagement metrics. 📏💼
 
@@ -150,6 +152,7 @@ Space Complexity: O(n), where n is the number of different ad placement lengths.
 **Shortcomings and Scalability**:
 Using the Rod Cutting Problem for ad optimization on Instagram faces challenges in accurately matching ad placements with dynamic user behaviors and context. It aims to maximize revenue by finding the best ad durations but may miss subtle contextual cues crucial for user engagement. Scalability issues arise from managing large datasets and ensuring algorithms can adapt quickly, requiring robust infrastructure and adaptive learning. Overcoming these challenges involves refining algorithms and leveraging real-time data insights to improve ad effectiveness and user satisfaction on the platform.🚀
 
+*Code for sample implementation of [Rod Cutting Problem](all_codes/rod.cpp)*
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
 - [Dynamic Programming Techniques](https://en.wikipedia.org/wiki/Dynamic_programming)
