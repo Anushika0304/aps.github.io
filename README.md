@@ -243,7 +243,7 @@ While effective for moderate-sized networks, these algorithms may struggle with 
 **Challenges and Market Benefits:**
 Analyzing user engagement using Kadane's algorithm presents challenges in accurately interpreting engagement spikes versus noise in data, and in adapting the algorithm to real-time streaming data. However, it offers significant benefits by identifying peak engagement periods, optimizing content scheduling, and enhancing user interaction strategies, thereby improving overall user engagement and satisfaction on Instagram.
 
-![User Engagement](user_engagement.avif)
+![User Engagement](user-engagement.avif)
 
 **Design Technique:**
 Kadane's algorithm is employed by treating user engagement metrics as an array of values over time. It efficiently computes the maximum subarray sum, pinpointing periods of high activity and facilitating strategic decisions on content posting and user interaction timing.
