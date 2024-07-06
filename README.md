@@ -32,10 +32,15 @@ In this portfolio, I explore how arithmetic problem-solving can enhance user exp
 ## 📊 Business Cases in Instagram
 ![Use Case 1](usecase0.png)
 
-![Use Case 1](usecase2.png)
+![Use Case 2](usecase2.png)
 
-![Use Case 1](usecase3.png)
+![Use Case 3](usecase3.png)
 
+![Use Case 4](usecase4.png)
+
+![Use Case 5](usecase5.png)
+
+![Use Case 6](usecase6.png)
 
 
 
