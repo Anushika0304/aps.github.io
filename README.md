@@ -17,9 +17,12 @@
 
 ### Portfolio Domain
 **Instagram** 📸
+
 ----
 
 ### **Instagram Market Analysis 📈📊**
+
+![Instagram Demographics](instagram-demographics.png)
 
 Instagram, launched in 2010 and acquired by Facebook in 2012, has grown into one of the leading social media platforms globally. Boasting over **2 billion active users** 🌍, Instagram has established itself as a significant player in the social media market. Its visual-centric approach allows users to share photos 📸 and videos 🎥, engage with stories 📖, and explore content through various features such as IGTV and Reels.
 
@@ -27,22 +30,28 @@ Instagram's high user engagement rates 📈 and sophisticated ad targeting capab
 
 The platform's seamless integration with e-commerce 🛒 has opened new revenue streams. Features like shoppable posts and in-app checkout 🛍️ enable users to purchase products directly from the app, enhancing the shopping experience and driving sales for brands. Influencers also play a critical role on Instagram, promoting products and engaging with followers, further driving the platform's commercial success.
 
-User demographics show a fairly balanced gender distribution with 51% male and 49% female users. The age distribution is also noteworthy: 31% of users are aged 18-24, while 31.2% are aged 25-34. This makes Instagram particularly effective for targeting Generation Z and Millennials, who are key consumer groups for many brands.
+![Instagram](instagram.jpg)
 
-![Instagram Demographics](instagram-demographics.png)
+User demographics show a fairly balanced gender distribution with 51% male and 49% female users. The age distribution is also noteworthy: 31% of users are aged 18-24, while 31.2% are aged 25-34. This makes Instagram particularly effective for targeting Generation Z and Millennials, who are key consumer groups for many brands.
 
 Globally, Instagram's user base includes major markets such as India, Russia, the USA, Indonesia, and Brazil. This extensive reach highlights Instagram's influence across different regions and cultures, making it a critical platform for international marketing campaigns.
 
 User engagement on Instagram is exceptionally high. The platform sees **40 million photos** uploaded daily, **8,500 likes per second** ❤️, and **1,000 comments per second** 💬, indicating active participation from users and a vibrant community. The monthly active users reach **100 million**, emphasizing its consistent popularity and relevance.
-
-![Instagram](instagram.jpg)
 
 Instagram continually adapts to market trends, such as the rise of short-form video content 📹. Features like Reels, which compete with TikTok, showcase Instagram's ability to innovate and stay relevant in the fast-evolving social media landscape. Its robust analytics tools 📊 provide businesses with insights into their audience and campaign performance, ensuring that marketing strategies are data-driven and effective.
 
 In summary, Instagram's dynamic features, high engagement rates, and strong e-commerce integration solidify its position as a crucial platform for both social interaction and business marketing. The platform's ability to attract and engage a diverse audience, along with its innovative approach to content and advertising, makes it indispensable in the competitive social media ecosystem. 📈
 
 
-## 📊 Services Provided by Instagram
+### **Objectives**
+* To propose advanced algorithms and data structures to improve Instagram's performance 📈💡.
+
+* To apply DSA and APS concepts for real-world design and efficiency improvements on Instagram 🛠️🚀.
+
+* To enhance user experience and engagement through innovative algorithmic proposals for Instagram 🌟📊.
+
+  
+## 📊 Existing Services Provided by Instagram
 ![Use Case 1](usecase0.png)
 
 ![Use Case 2](usecase2.png)
@@ -71,24 +80,20 @@ Categorizing posts based on hashtags on platforms like Instagram enhances conten
 
 ![Post Categorization](Hashtags.png)
 
-**Shortcomings and Scalability Issues with LCS:**
+**Time & Space Complexity**
 
-* **Time Complexity:** O(m * n), where m and n are the lengths of the hashtag sequences. While suitable for moderate datasets, the quadratic time complexity can become impractical for large-scale applications without optimization. ⏳
-* **Semantic Understanding:** LCS may not capture the full semantic meaning or context of hashtags, limiting its ability to categorize based on nuanced topics or trends effectively. 🤔
-* **Scalability:** Optimization or parallelization is necessary to handle the extensive volume of posts and hashtags generated on platforms like Instagram. 📈
+Time Complexity: (O(m*n)), where m and n are lengths of sequences.
+Space Complexity: (O(m*n)) for storing the LCS table.
 
 *Code for sample implementation of [Longest Common Subsequence](all_codes/Longest-Common-Subsequence.cpp)*
 
+**Time & Space Complexity** 
 
-**Shortcomings and Scalability Issues with Radix Tree:**
+Time Complexity: For insertion, deletion and search: O(l) l is length of the tag.
 
-* **Time Complexity:** Insertion, deletion, and search operations are O(l), where l is the length of the tag. This efficiency is suitable for handling real-time hashtag updates and dynamic content categorization. ⚡
-* **Space Complexity:** O(n * l), where n is the number of hashtags and l is the average length of hashtags. While generally efficient, the space overhead may become significant with a massive number of distinct hashtags. 🧠
-* **Maintenance in Distributed Systems:** Synchronization challenges may arise when maintaining Radix Trees across distributed systems, requiring careful management to ensure consistency and efficiency. 🌐
+Space Complexity: O(n*l) where n is number of strings and l is average length of the strings.
 
 *Code for sample implementation of [Radix Tree](https://github.com/Anushika0304/radix-tree/blob/master/radix_tree.cpp)*
-
-By leveraging these design techniques, Instagram can effectively categorize posts based on hashtags, enhancing content discoverability, improving user engagement through personalized recommendations, and maintaining a scalable infrastructure to handle the platform's dynamic nature. Each approach offers unique advantages and challenges, depending on the specific requirements and scale of hashtag analysis on social media platforms.
 
 ---
 
@@ -102,8 +107,10 @@ Ensuring accuracy and relevance in hashtag suggestions is critical. The system m
 **Design Technique**:
 Maintain a database of popular hashtags using a trie 🌳 or BK-tree for efficient management. When a user types a hashtag, calculate the edit distance between the input and stored hashtags to find the closest matches. Suggest hashtags with the smallest edit distances, using approximate string matching 🔍 and parallel processing to optimize performance.
 
-**Shortcomings & Scalability**:
-The edit distance algorithm can be computationally intensive with a time complexity of O(m * n) 🧮, leading to high memory usage. Using tries or BK-trees helps manage large datasets and reduces search time ⏳. The time complexity for operations in a trie is O(l) where l is the length of the hashtag, and the space complexity is O(n * l), where n is the number of hashtags. Parallel processing and load balancing ensure optimal resource utilization ⚖️. Implementing incremental updates allows the system to handle new and outdated hashtags without requiring a complete rebuild, maintaining responsiveness and efficiency 🚀.
+**Time & Space Complexity**
+* Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
+  
+* Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
 
 *Code for sample implementation of [Edit Distance](all_codes/edit.cpp)*
 
