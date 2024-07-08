@@ -19,7 +19,9 @@
 **Instagram** 📸
 
 ----
+### 🌟 Introduction
 
+Welcome to my portfolio, where I delve into arithmetic problem-solving within Instagram 🌟. As one of the largest social media platforms globally, Instagram's dynamic environment, rich with diverse user interactions and algorithmic recommendations, offers a unique landscape for innovative problem-solving using dynamic programming 🛠️. By leveraging existing literature and focusing on Instagram's specific challenges, I aim to contribute novel solutions that enhance user experiences and optimize the platform's ecosystem 🚀. With billions of active users worldwide, Instagram's significance is undeniable, and this portfolio showcases my dedication to applying strategic data structures and algorithms to real-world issues, bridging the gap between theory and practice 📚.
 ### **Instagram Market Analysis 📈📊**
 
 ![Instagram Demographics](instagram-demographics.png)
@@ -127,14 +129,15 @@ Efficiently managing and querying large datasets in real-time poses significant 
 Employing a segment trees for efficient real-time analytics. Each node in the segment tree represents aggregated metrics (e.g., sum, max, min) over data points. Leaf nodes store individual user interactions, while internal nodes maintain aggregated values. Updates propagate from leaf to root, ensuring accuracy for range queries and updates.
 
 **Time and Space Complexity:**
-Construction: O(n) for tree setup from data points.
-Queries: O(log n) for efficient metric retrieval.
-Updates: O(log n) for propagating changes.
-Space: O(n) for node storage, manageable with proper resource allocation.
+Time Complexity 
 
-**Shortcomings & Scalability:**
-* **Shortcomings**: Segment trees have O(n) space complexity, taxing memory with large datasets. Frequent updates, common in real-time streams, can be costly. Maintaining consistency across distributed environments poses challenges.
-* **Scalability**: Horizontal scaling via distributed segment trees balances load across servers. Sharding divides data for efficiency. Parallel processing and map-reduce enhance query handling. Dynamic updates optimize performance.
+* Construction: O(n) for tree setup from data points.
+  
+* Queries: O(log n) for efficient metric retrieval.
+  
+* Updates: O(log n) for propagating changes.
+  
+Space Complexity : O(n) for node storage, manageable with proper resource allocation.
 
 *Code for sample implementation of [Segment Tree](all_codes/segment.cpp)*
 
@@ -149,13 +152,9 @@ A* search can find the shortest path to relevant content. Users and content item
 
 **Time and Space Complexity:**
 
-Time Complexity: O(b^d) 🌐
+* Time Complexity: O(b^d) 🌐
 
-Space Complexity: O(b^d) 📊
-, where **b** is branching factor and **d** is depth of the solution 
-
-**Shortcomings & Scalability:**
-A* relies on the heuristic's accuracy, and designing an effective heuristic can be challenging. Real-time computation may be resource-intensive, especially with a large and complex user-content graph. However, parallel processing and distributed computing can scale A* search for a large user base. Partitioning the graph and distributing the search process ensures efficiency, while caching and pre-computing paths reduce computational load, maintaining responsiveness and effectiveness 🚀.
+* Space Complexity: O(b^d) 📊 , where **b** is branching factor and **d** is depth of the solution 
 
 *Code for sample implementation of [A* algorithm](https://github.com/daancode/a-star)*
 
@@ -168,13 +167,10 @@ Instagram faces challenges in optimizing ad placements, much like the Rod Cuttin
 **Design Technique:**
 The Rod Cutting Problem can be analogously applied to optimize ad placements on Instagram. Just as the rod cutting problem seeks to maximize the profit from cutting a rod into pieces of various lengths, Instagram can maximize revenue by determining the best placement and duration for ads based on user behavior and engagement metrics. 📏💼
 
-**Complexity:**
-Time Complexity: O(n^2) using dynamic programming, where n is the number of different ad placement lengths.
+**Time & Space Complexity:**
+* Time Complexity: O(n^2) using dynamic programming, where n is the number of different ad placement lengths.
 
-Space Complexity: O(n), where n is the number of different ad placement lengths.🧮
-
-**Shortcomings and Scalability**:
-Using the Rod Cutting Problem for ad optimization on Instagram faces challenges in accurately matching ad placements with dynamic user behaviors and context. It aims to maximize revenue by finding the best ad durations but may miss subtle contextual cues crucial for user engagement. Scalability issues arise from managing large datasets and ensuring algorithms can adapt quickly, requiring robust infrastructure and adaptive learning. Overcoming these challenges involves refining algorithms and leveraging real-time data insights to improve ad effectiveness and user satisfaction on the platform.🚀
+* Space Complexity: O(n), where n is the number of different ad placement lengths.🧮
 
 *Code for sample implementation of [Rod Cutting Problem](all_codes/rod.cpp)*
 
@@ -189,13 +185,10 @@ Implementing skip lists in Instagram for managing user timelines or feeds presen
 **Design Technique:**
 Implementing skip lists involves maintaining multiple layers of linked lists with probabilistic skipping, which speeds up search operations. Each level acts as an express lane, reducing the average time complexity for search operations.🛤️
 
-**Complexity:** 
+**Time & Space Complexity:** 
+* Time Complexity : Skip lists offer efficient average-case time complexities for search, insertion, and deletion operations, all being O(log n), where **n** is the number of elements in the list.
 
-Time Complexity : Skip lists offer efficient average-case time complexities for search, insertion, and deletion operations, all being O(log n), where **n** is the number of elements in the list.
-
-Space Complexity : The space complexity of skip lists is O(n).
-
-**Shortcomings and Scalability:** Skip lists require more memory compared to basic data structures due to their additional layers, which can limit their efficiency in memory-constrained environments. While they dynamically adjust to changes in data size and access patterns, their implementation complexity can pose challenges in distributed systems, requiring careful synchronization to maintain consistency and scalability. Despite their efficiency in average cases, skip lists may not be optimal for applications demanding strictly minimized memory usage or ultra-fast operations beyond logarithmic time complexity.
+* Space Complexity : The space complexity of skip lists is O(n).
 
 *Code for sample implementation of [Skip List](all_codes/skip.cpp)*
 
@@ -209,11 +202,10 @@ Optimizing content delivery routes in Instagram with algorithms like Dijkstra's 
 **Design Technique**:
 Implementing Dijkstra's algorithm involves calculating shortest paths from a source node to all other nodes, using priority queues for efficient path exploration. A* algorithm enhances this by incorporating heuristics to guide the search towards the destination more effectively.
 
-**Complexity**:
-Dijkstra's algorithm has a time complexity of O(V^2) using an adjacency matrix or O((E + V) log V) with priority queues, where V is the number of vertices and E is the number of edges. Space complexity is O(V) for storing distances and vertices.
+**Time & Space Complexity**:
+* Time complexity of O(V^2) using an adjacency matrix or O((E + V) log V) with priority queues, where V is the number of vertices and E is the number of edges. 
 
-**Shortcomings and Scalability**: 
-While Dijkstra's and A* are efficient for finding shortest paths, they may struggle with scalability in very large networks or dynamic environments due to their reliance on exhaustive path exploration. Handling real-time updates and optimizing for varying network conditions can pose challenges, requiring continuous optimization and possibly more complex algorithms for large-scale applications.
+* Space complexity is O(V) for storing distances and vertices.
 
 *Code for sample implementation of [Dijkstra's Algorithm](all_codes/dijkstra.cpp)*
 
@@ -231,11 +223,10 @@ Scheduling posts at optimal times on Instagram involves navigating dynamic user 
 **Design Technique**:
 Genetic algorithm mimics the process of natural selection to optimize solutions. In the context of scheduling posts, GA can evolve schedules over time by generating a population of potential schedules (chromosomes), evaluating their fitness (reach and engagement metrics), and applying genetic operators like crossover and mutation to produce new generations of schedules. This iterative process continues until an optimal or near-optimal schedule is found.
 
-**Complexity**:
-The time complexity for each generation in a genetic algorithm is O(k x n x m), where **k** is the population size, **n** is the number of chromosomes (or solutions) in the population, and **m** is the complexity of the fitness function evaluation. The space complexity mainly depends on the size of the population and the representation of each chromosome, typically O(k x n).
+**Time & Space Complexity**:
+* The time complexity for each generation in a genetic algorithm is O(k x n x m), where **k** is the population size, **n** is the number of chromosomes (or solutions) in the population, and **m** is the complexity of the fitness function evaluation. 
 
-**Shortcomings & Scalability**:
-Genetic algorithms can face challenges in scalability due to their reliance on population sizes and fitness evaluations, which can become computationally intensive for large datasets or complex problems. They may also struggle with premature convergence to suboptimal solutions and require careful parameter tuning to balance exploration and exploitation effectively. Maintaining diversity in the population and managing computational resources are critical for overcoming these limitations in practical applications.
+* The space complexity mainly depends on the size of the population and the representation of each chromosome, typically O(k x n).
 
 *Code for sample implementation of [Genetic Algorithm](all_codes/genetic.cpp)*
 
@@ -251,11 +242,11 @@ Detecting trends on Instagram involves processing vast amounts of data in real-t
 **Design Technique:**
 Utilizing algorithms like the Louvain method or Girvan-Newman algorithm helps in identifying communities or clusters of users based on shared interactions and interests. This approach uncovers emerging trends by analyzing how content spreads through these communities, providing actionable insights for content creators and marketers.
 
-**Complexity:**
-These algorithms typically have a time complexity of O(E^2V) for Girvan-Newman and O(V log V) for Louvain method, where E represents edges and V represents vertices in the network. Space complexity varies based on implementation but generally scales with the size of the network.
+**Time & Space Complexity:**
+* Time complexity of O(E^2V) for Girvan-Newman and O(V log V) for Louvain method, where E represents edges and V represents vertices in the network. 
 
-**Shortcomings and Scalability:**
-While effective for moderate-sized networks, these algorithms may struggle with scalability to handle Instagram's massive user base and real-time data streams. Implementations often require optimization for distributed environments and may overlook nuances in regional or niche trends due to global focus.
+* Space complexity varies based on implementation but generally scales with the size of the network.
+
 
 *Code for sample implementation of [Girvan Newman Algorithm](https://github.com/danieljsharpe/girvan-newman/blob/master/girvan-newman.cpp)*
 
@@ -272,11 +263,9 @@ Analyzing user engagement using Kadane's algorithm presents challenges in accura
 Kadane's algorithm is employed by treating user engagement metrics as an array of values over time. It efficiently computes the maximum subarray sum, pinpointing periods of high activity and facilitating strategic decisions on content posting and user interaction timing.
 
 **Time and Space Complexity:**
-Time Complexity: O(n), where n is the number of elements in the engagement metrics array. Kadane's algorithm operates in linear time, making it suitable for processing large datasets quickly.
-Space Complexity: O(1), as it requires constant space beyond the input array, ensuring minimal memory overhead.
+* Time Complexity: O(n), where n is the number of elements in the engagement metrics array. Kadane's algorithm operates in linear time, making it suitable for processing large datasets quickly.
 
-**Shortcomings and Scalability:**
-While effective for identifying contiguous segments of maximum engagement, Kadane's algorithm may struggle with diverse engagement patterns or when dealing with non-contiguous peaks. Scaling Kadane's for real-time applications with continuously updated data streams requires robust adaptation and integration with other algorithms for comprehensive user engagement analysis on Instagram.
+* Space Complexity: O(1), as it requires constant space beyond the input array, ensuring minimal memory overhead.
 
 *Code for sample implementation of [Kadane's Algorithm](all_codes/kadane.cpp)*
 
@@ -295,9 +284,9 @@ The design for using Huffman coding in image compression starts with analyzing t
 
 **Time and Space Complexity**
 
-Time Complexity: O(N log N) N: number of unique pixels for image compression.
+* Time Complexity: O(N log N) N: number of unique pixels for image compression.
 
-Space Complexity: O(N)
+* Space Complexity: O(N)
 
 *Code for sample implementation of [Huffman's Code ](all_codes/huff.cpp)*
 
@@ -314,8 +303,9 @@ Managing user interaction data, such as likes, comments, and shares, poses chall
 The Red-Black Tree design maintains balance by assigning each node a color (red or black) and enforcing rules that ensure balanced paths from the root to any leaf. This structure optimizes operations like insertion and deletion by guaranteeing efficient search and traversal, making it ideal for managing large datasets such as user interaction data on Instagram.
 
 **Time and Space Complexity**
-Time Complexity: O(log N) (Worst case) O(1)(Average case)
-Space Complexity: O(1)
+* Time Complexity: O(log N) (Worst case) O(1)(Average case)
+  
+* Space Complexity: O(1)
 
 *Code for sample implementation of [Red Black Tree](all_codes/rb_tree.cpp)*
 
@@ -378,6 +368,17 @@ Space Complexity : O(m) , where **n** represents the length of the text or the t
 *Code for sample implementation of [Rabin Karp](all_codes/rabin.cpp)*
 
 ---
+
+### **Insights and Highlights 📚**
+- Selecting the right data structures and algorithms can address specific business challenges within Instagram, discussing challenges, benefits, and design techniques used 🛠️.
+
+- Emphasizes how algorithms learned in APS and DSA courses can be applied to practical problems on Instagram, highlighting the importance of efficiency and practicality 🌍.
+
+- Offers insights into choosing the best solutions for real-world issues, showcasing how well-chosen algorithms and data structures can significantly enhance Instagram's services 🚀.
+
+- Underscores the critical role of effective algorithms in improving user experience and engagement on Instagram, highlighting their importance in enhancing service quality and business outcomes 🎯.
+
+- Bridges theory and practice, offering valuable lessons for both learning and practical application, illustrating the profound impact of a deep understanding of algorithms and data structures 📈.
 
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
