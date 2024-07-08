@@ -320,6 +320,26 @@ Space Complexity : O(N)
 
 ---
 
+### 14. Feed Ranking & Sorting**
+**Challenges & Market Benefits**
+Managing feed ranking on Instagram involves challenges in handling large volumes of user content and dynamically updating rankings based on engagement metrics like likes and comments. Implementing Fenwick Trees offers market benefits by efficiently managing these rankings, optimizing resource use, and enhancing user satisfaction by prioritizing popular and relevant content. This approach ensures a responsive platform that effectively engages users with personalized content, thereby improving overall user experience and retention.
+
+![Feed Ranking](ranking.jpg)
+
+**Design Technique**
+The design technique of a Fenwick Tree, also known as a Binary Indexed Tree (BIT), involves using an array where each element stores cumulative frequency information. This structure allows efficient updates and prefix sum calculations. Fenwick Trees achieve this by leveraging the properties of binary numbers to efficiently navigate and update cumulative sums. This design is particularly suited for applications requiring dynamic cumulative frequency queries, such as range sum queries in arrays or efficiently managing and updating rankings based on cumulative metrics like likes and comments in social media platforms like Instagram.
+
+**Time and Space Complexity**
+Time Complexity:
+* Update Operation (Point Update): O(log n)
+* Prefix Sum Query (Range Query): O(log n)
+  
+Space Complexity: O(n)
+
+*Code for sample implementation of [Fenwick Tree](all_codes/fenwick.cpp)*
+
+---
+
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
 - [Dynamic Programming Techniques](https://en.wikipedia.org/wiki/Dynamic_programming)
