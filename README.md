@@ -135,6 +135,7 @@ Space Complexity: O(b^d) 📊
 
 **Shortcomings & Scalability:**
 A* relies on the heuristic's accuracy, and designing an effective heuristic can be challenging. Real-time computation may be resource-intensive, especially with a large and complex user-content graph. However, parallel processing and distributed computing can scale A* search for a large user base. Partitioning the graph and distributing the search process ensures efficiency, while caching and pre-computing paths reduce computational load, maintaining responsiveness and effectiveness 🚀.
+
 *Code for sample implementation of [A* algorithm](https://github.com/daancode/a-star)*
 
 ### 5. Ad Placement Optimization on Instagram 📏
@@ -148,6 +149,7 @@ The Rod Cutting Problem can be analogously applied to optimize ad placements on 
 
 **Complexity:**
 Time Complexity: O(n^2) using dynamic programming, where n is the number of different ad placement lengths.
+
 Space Complexity: O(n), where n is the number of different ad placement lengths.🧮
 
 **Shortcomings and Scalability**:
@@ -256,6 +258,28 @@ Space Complexity: O(1), as it requires constant space beyond the input array, en
 While effective for identifying contiguous segments of maximum engagement, Kadane's algorithm may struggle with diverse engagement patterns or when dealing with non-contiguous peaks. Scaling Kadane's for real-time applications with continuously updated data streams requires robust adaptation and integration with other algorithms for comprehensive user engagement analysis on Instagram.
 
 *Code for sample implementation of [Kadane's Algorithm](all_codes/kadane.cpp)*
+
+---
+### 11. Efficient storing and retrieval of Images
+
+**Challenges & Market Benefits**
+
+Storing images without compression on Instagram results in high storage costs, slower retrieval times, and increased bandwidth usage, negatively impacting user experience and scalability. Implementing Huffman coding can address these issues by reducing storage space requirements and enhancing image loading times. This leads to cost savings, improved user satisfaction, and better scalability, allowing Instagram to manage its growing user base more efficiently.
+
+![Storage & Retrieval](storage.jpg)
+
+**Design Technqiue**
+The design for using Huffman coding in image compression starts with analyzing the image pixel data to determine the frequency of each pixel value. A binary tree, known as a Huffman tree, is then constructed based on these frequencies. In this tree, pixel values that occur less frequently are assigned longer binary codes, while more frequent pixel values are given shorter codes. This approach ensures efficient compression by reducing the overall size of the image data. The encoded image can then be stored and transmitted more efficiently, saving storage space and bandwidth.
+
+
+**Time and Space Complexity**
+
+Time Complexity: O(N log N) N: number of unique pixels for image compression.
+
+Space Complexity: O(N)
+
+*Code for sample implementation of [Huffman's Code ](all_codes/huff.cpp)*
+---
 
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
