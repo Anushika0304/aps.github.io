@@ -339,6 +339,24 @@ Space Complexity: O(n)
 *Code for sample implementation of [Fenwick Tree](all_codes/fenwick.cpp)*
 
 ---
+### 15. Content Moderation
+**Challenges & Market Benefits**
+Content moderation on Instagram faces challenges such as efficiently identifying and removing inappropriate or offensive content and managing the vast volume of user-generated content in real-time. Additionally, detecting and filtering out spam messages requires robust pattern matching techniques. Implementing the Rabin-Karp algorithm can address these challenges by enabling quick and efficient scanning and pattern matching to identify inappropriate content and spam. This improves the platform's safety and user experience by ensuring timely removal of harmful content. Moreover, enhanced content moderation boosts user trust and satisfaction, which can lead to increased user engagement and retention, benefiting Instagram's market position.
+
+![Content Moderation](content_moderation.jpg)
+
+**Design Technique**
+The design technique of the Rabin-Karp algorithm involves using a rolling hash function to efficiently compare substrings. Initially, the algorithm computes the hash value for the target pattern and the first window of text. As the window slides over the text, the hash value is updated in constant time, allowing for rapid comparisons. If a hash match is found, the algorithm performs a direct string comparison to confirm the match, balancing efficiency with accuracy for effective pattern matching.
+
+**Time & Space Complexity**
+Time Complexity:
+* Average Case: O(n + m)
+* Worst Case: O(nm)
+Space Complexity : O(m) , where **n** represents the length of the text or the total number of characters in the string being searched and **m** represents the length of the pattern or the substring that is being searched for within the text.
+
+*Code for sample implementation of [Rabin Karp](all_codes/rabin.cpp)*
+
+---
 
 ## 📚 References
 - [Instagram Official Site](https://www.instagram.com)
