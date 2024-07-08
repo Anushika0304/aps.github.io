@@ -395,5 +395,10 @@ Space Complexity : O(m) , where **n** represents the length of the text or the t
 - Bridges theory and practice, offering valuable lessons for both learning and practical application, illustrating the profound impact of a deep understanding of algorithms and data structures 📈.
 
 ## 📚 References
-- [Instagram Official Site](https://www.instagram.com)
+- [Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence)
+- [Binary Search Tree](https://www.geeksforgeeks.org/introduction-to-binary-search-tree/)
+- [Edit Distance](https://takeuforward.org/data-structure/edit-distance-dp-33/)
+- [Fenwick Tree](https://cp-algorithms.com/data_structures/fenwick.html)
+- [Genetic Algorithm](https://in.mathworks.com/help/gads/what-is-the-genetic-algorithm.html)
+- [Huffman Coding](https://www.javatpoint.com/huffman-coding-algorithm)
 - [Dynamic Programming Techniques](https://en.wikipedia.org/wiki/Dynamic_programming)
