@@ -266,7 +266,7 @@ While effective for identifying contiguous segments of maximum engagement, Kadan
 
 Storing images without compression on Instagram results in high storage costs, slower retrieval times, and increased bandwidth usage, negatively impacting user experience and scalability. Implementing Huffman coding can address these issues by reducing storage space requirements and enhancing image loading times. This leads to cost savings, improved user satisfaction, and better scalability, allowing Instagram to manage its growing user base more efficiently.
 
-![Storage & Retrieval](storage.jpg)
+![Storage & Retrieval](storage1.jpg)
 
 **Design Technqiue**
 The design for using Huffman coding in image compression starts with analyzing the image pixel data to determine the frequency of each pixel value. A binary tree, known as a Huffman tree, is then constructed based on these frequencies. In this tree, pixel values that occur less frequently are assigned longer binary codes, while more frequent pixel values are given shorter codes. This approach ensures efficient compression by reducing the overall size of the image data. The encoded image can then be stored and transmitted more efficiently, saving storage space and bandwidth.
@@ -297,6 +297,26 @@ Time Complexity: O(log N) (Worst case) O(1)(Average case)
 Space Complexity: O(1)
 
 *Code for sample implementation of [Red Black Tree](all_codes/rb_tree.cpp)*
+
+---
+
+### 13. Ads Targeting 
+
+**Challenges & Market Benefits**
+Ad targeting on Instagram poses challenges in managing vast user data for precise audience segmentation and real-time updates. Ensuring accuracy in targeting specific income brackets or purchasing power ranges requires sophisticated data handling and competitive optimization strategies. Implementing Binary Search Trees (BSTs) can address these challenges by enabling efficient and scalable searches within demographic segments. This approach enhances targeting precision, improves user engagement through relevant ad placements, and optimizes advertising costs by maximizing ROI through effective audience segmentation and targeting on Instagram.
+
+![Ads Targeting](ad_target.avif)
+
+**Design Technique**
+The design technique of a Binary Search Tree (BST) organizes nodes where each left subtree node value is less than its parent and each right subtree node value is greater. This structure allows for efficient searching, insertion, and deletion operations, making it suitable for applications requiring ordered data retrieval, such as ad targeting based on income brackets or purchasing power ranges on Instagram.
+
+**Time & Space Complexity**
+Time Complexity - 
+* Average Case: O(log N) (Insert,search,delete)
+* Worst Case: O(N)
+Space Complexity : O(N)
+
+*Code for sample implementation of [Binary Search Tree](all_codes/bst.cpp)*
 
 ---
 
