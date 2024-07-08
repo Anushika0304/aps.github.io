@@ -19,8 +19,7 @@
 **Instagram** 📸
 ----
 
-### **Market Analysis of Instagram 📈📊**
-### Instagram Market Analysis 📊
+### **Instagram Market Analysis 📈📊**
 
 Instagram, launched in 2010 and acquired by Facebook in 2012, has grown into one of the leading social media platforms globally. Boasting over **2 billion active users** 🌍, Instagram has established itself as a significant player in the social media market. Its visual-centric approach allows users to share photos 📸 and videos 🎥, engage with stories 📖, and explore content through various features such as IGTV and Reels.
 
@@ -30,26 +29,17 @@ The platform's seamless integration with e-commerce 🛒 has opened new revenue 
 
 User demographics show a fairly balanced gender distribution with 51% male and 49% female users. The age distribution is also noteworthy: 31% of users are aged 18-24, while 31.2% are aged 25-34. This makes Instagram particularly effective for targeting Generation Z and Millennials, who are key consumer groups for many brands.
 
+![Instagram Demographics](instagram-demographics.png)
+
 Globally, Instagram's user base includes major markets such as India, Russia, the USA, Indonesia, and Brazil. This extensive reach highlights Instagram's influence across different regions and cultures, making it a critical platform for international marketing campaigns.
 
 User engagement on Instagram is exceptionally high. The platform sees **40 million photos** uploaded daily, **8,500 likes per second** ❤️, and **1,000 comments per second** 💬, indicating active participation from users and a vibrant community. The monthly active users reach **100 million**, emphasizing its consistent popularity and relevance.
 
+![Instagram](instagram.jpg)
+
 Instagram continually adapts to market trends, such as the rise of short-form video content 📹. Features like Reels, which compete with TikTok, showcase Instagram's ability to innovate and stay relevant in the fast-evolving social media landscape. Its robust analytics tools 📊 provide businesses with insights into their audience and campaign performance, ensuring that marketing strategies are data-driven and effective.
 
 In summary, Instagram's dynamic features, high engagement rates, and strong e-commerce integration solidify its position as a crucial platform for both social interaction and business marketing. The platform's ability to attract and engage a diverse audience, along with its innovative approach to content and advertising, makes it indispensable in the competitive social media ecosystem. 📈
-
-
-
-Instagram, launched in 2010 and acquired by Facebook in 2012, has grown into one of the leading social media platforms globally. Boasting over 1 billion monthly active users 🌍, Instagram has established itself as a significant player in the social media market. Its visual-centric approach allows users to share photos 📸 and videos 🎥, engage with stories 📖, and explore content through various features such as IGTV and Reels.
-
-Instagram's high user engagement rates 📈 and sophisticated ad targeting capabilities 🎯 make it a powerful platform for advertisers. Businesses leverage Instagram to reach diverse audiences 👥, promote products 🛍️, and build brand loyalty. Its emphasis on visual content is particularly effective for industries like fashion 👗, beauty 💄, travel ✈️, and lifestyle 🏖️. 
-
-The platform's seamless integration with e-commerce 🛒 has opened new revenue streams. Features like shoppable posts and in-app checkout 🛍️ enable users to purchase products directly from the app, enhancing the shopping experience and driving sales for brands. Influencers also play a critical role on Instagram, promoting products and engaging with followers, further driving the platform's commercial success.
-
-Instagram continually adapts to market trends, such as the rise of short-form video content 📹. Features like Reels, which compete with TikTok, showcase Instagram's ability to innovate and stay relevant in the fast-evolving social media landscape. Its robust analytics tools 📊 provide businesses with insights into their audience and campaign performance, ensuring that marketing strategies are data-driven and effective.
-
-In summary, Instagram's dynamic features, high engagement rates, and strong e-commerce integration solidify its position as a crucial platform for both social interaction and business marketing, making it indispensable in the competitive social media ecosystem.
-
 
 
 ## 📊 Services Provided by Instagram
