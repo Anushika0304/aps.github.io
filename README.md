@@ -395,6 +395,10 @@ Space Complexity : O(m) , where **n** represents the length of the text or the t
 - Bridges theory and practice, offering valuable lessons for both learning and practical application, illustrating the profound impact of a deep understanding of algorithms and data structures 📈.
 
 ## 📚 References
+- [Instagram Marketing Analysis](https://www.hubspot.com/instagram-marketing#:~:text=Instagram%20sees%20over%20one%20billion,of%2053%20minutes%20per%20day.)
+- [Instagram Marketing Strategy](https://getflowbox.com/blog/instagram-marketing-strategy/)
+- [Instagram Statistics 2024](https://sproutsocial.com/insights/instagram-stats/)
+- [Instagram Demographics](https://blog.hootsuite.com/instagram-demographics/)
 - [Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence)
 - [Binary Search Tree](https://www.geeksforgeeks.org/introduction-to-binary-search-tree/)
 - [Edit Distance](https://takeuforward.org/data-structure/edit-distance-dp-33/)
@@ -402,3 +406,6 @@ Space Complexity : O(m) , where **n** represents the length of the text or the t
 - [Genetic Algorithm](https://in.mathworks.com/help/gads/what-is-the-genetic-algorithm.html)
 - [Huffman Coding](https://www.javatpoint.com/huffman-coding-algorithm)
 - [Dynamic Programming Techniques](https://en.wikipedia.org/wiki/Dynamic_programming)
+- [Skip List](https://en.wikipedia.org/wiki/Skip_list)
+- [Tries](https://medium.com/basecs/trying-to-understand-tries-3ec6bede0014)
+- [Segment Tree](https://www.baeldung.com/cs/segment-trees#:~:text=A%20segment%20tree%20is%20essentially,range%20queries%20along%20with%20updates.)
