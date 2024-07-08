@@ -279,6 +279,25 @@ Time Complexity: O(N log N) N: number of unique pixels for image compression.
 Space Complexity: O(N)
 
 *Code for sample implementation of [Huffman's Code ](all_codes/huff.cpp)*
+
+---
+
+### 12. User Interaction Data
+
+**Challenges & Market Benefits** 
+Managing user interaction data, such as likes, comments, and shares, poses challenges for Instagram due to the scale and real-time nature of updates required. Implementing Red-Black Trees can significantly benefit Instagram by enabling efficient organization and rapid retrieval of this data. Red-Black Trees' balanced structure ensures quick access and optimal performance for analytics and user engagement tracking, even as data volumes grow. This approach enhances scalability, supports real-time data integrity, and improves overall user experience by facilitating timely and personalized content delivery based on user interactions.
+
+![User Interaction](user_interaction.jpg)
+
+**Design Technique**
+The Red-Black Tree design maintains balance by assigning each node a color (red or black) and enforcing rules that ensure balanced paths from the root to any leaf. This structure optimizes operations like insertion and deletion by guaranteeing efficient search and traversal, making it ideal for managing large datasets such as user interaction data on Instagram.
+
+**Time and Space Complexity**
+Time Complexity: O(log N) (Worst case) O(1)(Average case)
+Space Complexity: O(1)
+
+*Code for sample implementation of [Red Black Tree](all_codes/rb_tree.cpp)*
+
 ---
 
 ## 📚 References
